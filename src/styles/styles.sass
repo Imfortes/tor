@@ -1,0 +1,120 @@
+#app
+  background-image: url('../img/top.jpg'), url("../img/bottom.jpg")
+  background-position: top -100px left, bottom -100px right
+  -webkit-background-size: 100% 550px, 100% 800px
+  background-size: 100% 550px, 100% 800px
+  background-repeat: no-repeat
+  font-family: 'Raleway', sans-serif
+
+.lato
+  font-family: 'Lato', sans-serif
+
+figure
+  margin: 0
+  padding: 0
+
+.tarif
+  @media screen and (max-width: 992px)
+    margin-top: 1.5rem !important
+
+.tarif-img
+  width: 396px
+  height: 280px
+  background: url("../img/tarif.jpg") center center no-repeat
+  -webkit-background-size: contain
+  background-size: contain
+
+  @media screen and (max-width: 992px)
+    width: 100%
+
+.arrow
+  width: 100%
+  padding: 15px 10px
+  position: relative
+  background: #eee
+  border: none
+  -webkit-border-radius: 0
+  -moz-border-radius: 0
+  border-radius: 0
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.5)
+  text-align: center
+
+.arrow:before
+  content: ""
+  border: solid transparent
+  position: absolute
+  top: 100%
+  left: calc(50% - 5px)
+  border-top-color: #28a745
+  border-width: 10px
+
+.table
+  border-bottom: 0 !important
+  font-weight: 500
+
+td:first-child
+  padding-top: 1em !important
+
+.table th, .table td
+  border: 1px !important
+  padding: .3em 0
+  padding-left: 2em
+
+  @media screen and (max-width: 768px)
+    padding-left: 1em
+
+.fixed-table-container
+  border: 0 !important
+
+.text-media
+
+  @media screen and (max-width: 992px)
+    color: #000 !important
+
+.link-color
+  transition: all .5s
+
+  @media screen and (max-width: 768px)
+    color: #000 !important
+
+  &:hover
+    text-decoration: none
+    color: #28a745 !important
+
+.about__title
+  font-size: 20px
+  font-weight: 700
+  line-height: 70.33px
+
+.about__description-title
+  font-size: 21px
+  font-weight: 300
+  line-height: 30px
+
+.about figure
+  @media screen and (min-width: 768px)
+    margin-right: 5px !important
+  @media screen and (min-width: 992px)
+    margin-right: 1rem !important
+
+.promotion
+  font-size: 1.313em
+  font-weight: 300
+  line-height: 1.875em
+
+.list-group
+  list-style: none
+
+.footer .list-group li
+  @media screen and (max-width: 768px)
+    color: #000 !important
+
+.list,
+.list-group
+  height: 336px
+
+.list
+  height: 100%
+
+  @media screen and (max-width: 768px)
+    margin-bottom: 2rem
